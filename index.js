@@ -1,11 +1,9 @@
-/* vim:set expandtab ff=unix fenc=utf-8 ts=2 */
 /*!
- * console-logger-mixin, Copyright (c) 2010-2021 <katagawa@gmail.com>
+ * console-logger-mixin, Copyright (c) 2021 <katagawa@gmail.com>
  * https://github.com/katagawa/console-logger-mixin/blob/master/LICENSE
  */
 /* index.js */
 /* globals define, module, self */
-/* jshint asi: true */
 
 (function (root, factory) {
   /* istanbul ignore next */
@@ -126,12 +124,3 @@
 
   return ConsoleLoggerMixin
 }))
-
-/*
- * Local Variables:
- * coding: utf-8-unix
- * indent-tabs-mode: nil
- * mode: js
- * tab-width: 2
- * End:
- */
